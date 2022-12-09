@@ -200,6 +200,12 @@ main{
         display:none;
     }
 
+    .card-container {
+       margin-top: 10em;
+    }
+
+
+
     
 }
 
