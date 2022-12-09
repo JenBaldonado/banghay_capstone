@@ -145,7 +145,7 @@
   <footer>
     <div class="container">
       <div class="row footer__row1">
-        <div class="col-md-3 footer__about">
+        <div class="col-md-3 pb-3 footer__about">
           <h3 style="color: #0086DF;">About BANGHAY</h3>
           <div class="list-group">
             <a href="#" class="text-start">About BANGHAY</a>
@@ -157,7 +157,7 @@
             <a href="#">BANGHAY Global Sites</a>
           </div>
         </div>
-        <div class="col-md-3 footer__account">
+        <div class="col-md-3 pb-3 footer__account">
           <h3 style="color: #0086DF;">Account</h3>
           <div class="list-group">
             <a href="#">My Account</a>
@@ -167,7 +167,7 @@
             <a href="#">Flash Unlimited Shopping</a>
           </div>
         </div>
-        <div class="col-md-3 footer__help">
+        <div class="col-md-3 pb-3 footer__help">
           <h3 style="color: #0086DF;">Help and FAQs</h3>
           <div class="list-group">
             <a href="#">Online Ordering</a>
@@ -179,7 +179,7 @@
             <a href="#">Contact Us</a>
           </div>
         </div>
-        <div class="col-md-3 footer__shop">
+        <div class="col-md-3 pb-3 footer__shop">
           <h3 style="color: #0086DF;">Ways to Shop</h3>
           <div class="list-group">
             <a href="#">Just Arrived</a>

@@ -325,7 +325,7 @@ body footer {
     letter-spacing: 2px;
   }
   body footer .footer__row1 {
-    gap: 16px;
+    padding-left: 1em;
     font-size: 1rem;
     padding-bottom: 1rem;
   }
