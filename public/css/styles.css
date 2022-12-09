@@ -26,14 +26,6 @@ body {
     font-family: "Oswald", sans-serif;
     justify-content: center;
     align-items: center;
-   /*  background: linear-gradient(
-            rgba(255, 255, 255, 0.5),
-            rgba(255, 255, 255, 0.5)
-        ),
-        url(../img/HighResolutionLogo-TransparentBackground.png); /*https://stackoverflow.com/questions/4997493/set-opacity-of-background-image-without-affecting-child-elements*/
-    /* background-repeat: no-repeat;
-    background-position:calc(100% + 16em) calc(100% - -15.9em);
-    background-size: 40em 40em; */
 } 
 
 

@@ -463,3 +463,9 @@ body footer {
   body footer .footer__row3 a {
     color: white;
   }
+
+  @media screen and (max-width: 600px) {
+    h1, h6{
+        font-size: 12px;
+    }
+  }

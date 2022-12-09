@@ -5,7 +5,12 @@
 <div id="app">
   <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
     <div class="container">
-
+      <h1 class="subject-text ps-4"><a href="{{url('/banghay/gradeone')}}">GRADE 1</a></h1>
+      <h6 class="subject-text ps-4"><a href="{{url('/banghay/gradetwo')}}">GRADE 2</a></h6>
+      <h6 class="subject-text ps-4"><a href="{{url('/banghay/gradethree')}}">GRADE 3</a></h6>
+      <h6 class="subject-text ps-4"><a href="{{url('/banghay/gradefour')}}">GRADE 4</a></h6>
+      <h6 class="subject-text ps-4"><a href="{{url('/banghay/gradefive')}}">GRADE 5</a></h6>
+      <h6 class="subject-text ps-4"><a href="{{url('/banghay/gradesix')}}">GRADE 6</a></h6>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
         <span class="navbar-toggler-icon"></span>
@@ -14,12 +19,6 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <!-- Left Side Of Navbar -->
         <ul class="navbar-nav me-auto">
-          <h1 class="subject-text ps-4"><a href="{{url('/banghay/gradeone')}}">GRADE 1</a></h1>
-          <h6 class="subject-text ps-4"><a href="{{url('/banghay/gradetwo')}}">GRADE 2</a></h6>
-          <h6 class="subject-text ps-4"><a href="{{url('/banghay/gradethree')}}">GRADE 3</a></h6>
-          <h6 class="subject-text ps-4"><a href="{{url('/banghay/gradefour')}}">GRADE 4</a></h6>
-          <h6 class="subject-text ps-4"><a href="{{url('/banghay/gradefive')}}">GRADE 5</a></h6>
-          <h6 class="subject-text ps-4"><a href="{{url('/banghay/gradesix')}}">GRADE 6</a></h6>
 
         </ul>
         <!-- Right Side Of Navbar -->
