@@ -188,8 +188,6 @@
             <a href="#">Gift Cards</a>
           </div>
         </div>
-
-
       </div>
       <hr>
       <div class="row footer__row2">
@@ -223,7 +221,7 @@
     </div>
   </footer>
 
-<!--   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!--   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
  -->
 
 
