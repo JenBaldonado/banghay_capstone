@@ -436,7 +436,7 @@ body footer {
     letter-spacing: 2px;
   }
   body footer .footer__row1 {
-    padding-left: 1em;
+    padding-left: 1rem;
     font-size: 1rem;
     padding-bottom: 1rem;
   }
@@ -450,6 +450,7 @@ body footer {
   }
   body footer .footer__row2 {
     padding-bottom: 1rem;
+    padding-left: 1rem;
   }
   body footer .footer__row2 button {
     color: #fff;
