@@ -59,6 +59,7 @@ Adrian Badana
 - Account Registering
 - Login/Logout
 - File Upload
+- File Download
 
 <hr>
 
