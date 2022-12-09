@@ -352,7 +352,7 @@ body footer {
     color: white;
   }
 
-  h3{
+  body footer h3{
     display: flex;
     margin-block-start:0;
     margin-block-end: 0;
