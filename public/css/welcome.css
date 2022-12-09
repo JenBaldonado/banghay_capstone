@@ -205,9 +205,9 @@ main{
     }
 
     body footer .footer__row1 {
-        padding-left: unset;
-        font-size: unset;
-        padding-bottom: unset;
+        padding-left: 0;
+        font-size: 0;
+        padding-bottom: 0;
       }
 
     
