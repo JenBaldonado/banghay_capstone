@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&family=Poppins&display=swap');
+
+:root{
+    --primary-color: #D9D9D9;
+    --secondary-color: #32DEE0;
+    --tertiary-color: #0086DF;
+    --btn-hover-bg: #81ecec;
+    --btn-hover-border: #00cec9;
+    --text-color: #f1f1f1;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    color:var(--text-color);
+}
+
+html,body{
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+main{
+    background-color: rgba(0, 134, 223, 0.85);
+}
+
+
+/*-----------------------------------------LOGIN -----------------------------------------*/
+
+.modal-content{
+    background-color: rgba(101, 165, 207, 0.90);
+}
+
+.login-logo{
+    height: 20em;
+    width: 20em;
+    /* margin: auto; */
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link{
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.modal-open, body {
+    padding-right: 0 !important;
+}
+
+.overlay-bg{
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index: -1;
+    margin: 0;
+    
+}
+
+
+.overlay-nav {
+    position:absolute;
+    top: 0.625em;
+    padding-right: 3em;
+    background:rgba(101, 165, 207, 0.75);
+    background-clip: content-box;
+    width: 100%;
+    color:var(--text-color);
+    z-index: 2;
+    
+}
+
+.hero-overlay{
+    background-color: #256D85;
+    width: -moz-fit-content;
+    width: fit-content;
+    position:relative;
+    display:inline-block;
+    top:2em;
+    left: 7em;
+    padding: 0.4em 0.9em 0.9em 0.9em;
+    border-radius: 0.5em;
+    z-index: 1;
+}
+
+.overlay-img img{
+    width: 23em;
+    height: 23em;
+    margin-top: 9em;
+    margin-left: 4em;
+    z-index: 3;
+}
+
+.overlay-h1{
+    color:#E1CEB5; 
+}
+
+.error-overlay{
+    position:absolute;
+    display: flex;
+    top:5em;
+    right: 0;
+    left:0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    z-index:2;
+
+}
+
+.alert{
+    opacity: 0.8;
+}
+
+.newsletter-h1{
+    text-align: center; 
+    font-size: 76px; 
+    font-weight: bolder; 
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+
+     
+    .overlay-nav{
+        padding-right: 0;
+    }
+
+
+    .login-logo{
+      display: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .overlay-contianer{
+        height: 100vh;
+        
+    }
+    .hero-overlay{
+        background-color: #256D85;
+        width: -moz-fit-content;
+        width: fit-content;
+        position:relative;
+        top: 1em;
+        left: 4em;
+        padding: 0.4em 0.9em 0.9em 0.9em;
+        border-radius: 0.5em;
+        z-index: 0;
+    }
+    .overlay-img img{
+        margin-top: 5em;
+        width: 13em;
+        height: 13em;
+    }
+    .overlay-nav{
+        padding-right: 0;
+    }
+
+    .logo-col{
+        display:none;
+    }
+
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    .overlay-contianer{
+        height: 100vh;
+        
+    }
+    .hero-overlay{
+        background-color: #256D85;
+        width: -moz-fit-content;
+        width: fit-content;
+        position:relative;
+        top: 1em;
+        left: 3em;
+        padding: 0.4em 0.9em 0.9em 0.9em;
+        border-radius: 0.5em;
+        z-index: 0;
+    }
+    .overlay-img img{
+        margin-top: 20em;
+        width: 10em;
+        height: 10em;
+    }
+    .overlay-nav{
+        padding-right: 0;
+    }
+
+    .logo-col{
+        display:none;
+    }
+
+    
+}
+
+
+#join{
+    padding: 0.6250em 0em;
+    margin: 0.6250em 0em;
+    width: 6em;
+    background-color: var(--tertiary-color);
+    border: 2px solid var(--tertiary-color);
+    color: var(--text-color);;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline;
+    transition: 1s;
+}
+
+#join:hover, #share-btn:hover{
+    background: var(--btn-hover-bg);
+    border: 2px solid var(--btn-hover-border);
+}
+
+
+
+/*--------------------------MAIN------------------------*/
+
+body{
+    background-color: var(--tertiary-color);
+}
+
+.newsletter {
+    height: 100vh;
+    margin-top: 15px;
+    padding: 0;
+}
+.news {
+    height: 50vh;
+    padding: 5px;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    max-width: 920px;
+    object-fit: cover;
+    gap: 16px;
+}
+
+.card-item {
+    border:none;
+    border-radius: 6px;
+    background-color: #47B5FF;
+    box-shadow: 1px -1px 12px 0 rgba(58,59,69);
+    height: 16rem;
+    padding: 10px;
+}
+
+.card-item:hover {
+    background-color: #332FD0;   
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+img {
+    height: 12rem;
+    width: 12rem;
+    margin: 5px;
+    object-fit: cover;
+}
+
+p {
+    padding-top: 15px;
+}
+
+.share-container {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#share-btn{
+    padding: 0.6250em 4.375em;
+    margin: 1.2500em 0 auto;
+    background-color: #47B5FF;
+    border: 2px solid var(--secondary-color);
+    box-shadow: 1px -1px 12px 0 rgba(58,59,69);
+    color: var(--text-color);;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline;
+    transition: 1s;
+}
+
+
+
+body footer {
+    background-color: #171717;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: #fff;
+    letter-spacing: 2px;
+  }
+  body footer .footer__row1 {
+    padding-left: 12rem;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+  }
+  body footer .footer__row1 a {
+    text-decoration: none;
+    color: #fff;
+  }
+  body footer .footer__row1 a:hover {
+    color: gray;
+    text-decoration: underline;
+  }
+  body footer .footer__row2 {
+    padding-bottom: 1rem;
+  }
+  body footer .footer__row2 button {
+    color: #fff;
+  }
+  body footer .footer__row2 i {
+    font-size: 1.5rem;
+  }
+  body footer .footer__row2 .f__signUP {
+    padding-top: 5px;
+  }
+  body footer .footer__row3 a {
+    color: white;
+  }
