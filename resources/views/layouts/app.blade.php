@@ -144,7 +144,7 @@
 
   <footer>
     <div class="container">
-      <div class="row footer__row1 mx-auto gap-2">
+      <div class="row footer__row1 mx-auto gap-1">
         <div class="col-md-3 footer__about">
           <h3 style="color: #0086DF;">About BANGHAY</h3>
           <div class="list-group">
