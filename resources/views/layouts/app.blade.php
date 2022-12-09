@@ -146,7 +146,7 @@
     <div class="container">
       <div class="row footer__row1 text-center">
         <div class="col-md-3 footer__about">
-          <h3 style="color: #0086DF;">About BANGHAY</h3>
+          <h3 style="color: #0086DF; padd">About BANGHAY</h3>
           <div class="list-group">
             <a href="#" class="text-start">About BANGHAY</a>
             <a href="#">Careers</a>
