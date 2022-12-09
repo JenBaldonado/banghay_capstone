@@ -16,9 +16,9 @@ use App\Http\Controllers\BanghayController;
 
 Route::get('/', [BanghayController::class, 'welcome']);
 Route::get('/banghay', [BanghayController::class, 'index'])->middleware('auth');
-Route::post('/uploadfile', [BanghayController::class, 'store'])->middleware('auth');
+Route::post('/uploadfile', [BanghayController::class, 'store']);
 Route::get('/download/{file}', [BanghayController::class, 'download']);
-Route::get('/preview/{id}', [BanghayController::class, 'preview']);
+Route::get('/preview/{id}', [BanghayController::class, 'preview'])->middleware('auth');
 
 Route::get('/banghay/gradeone', [BanghayController::class, 'gradeone'])->middleware('auth');
 Route::get('/banghay/gradetwo', [BanghayController::class, 'gradetwo'])->middleware('auth');
