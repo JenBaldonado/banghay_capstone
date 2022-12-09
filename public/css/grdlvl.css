@@ -466,6 +466,11 @@ body footer {
 
   @media screen and (max-width: 600px) {
     h1, h6{
-        font-size: 12px;
+        font-weight: 12px;
+    }
+
+    html,body{
+        overflow-x: hidden;
+        max-width: 100%;
     }
   }
