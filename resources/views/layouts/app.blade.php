@@ -194,7 +194,7 @@
         <div class="col-md-6">
           <div class="input-group input-group-sm mb-3">
             <span class="col-md-3 align-text-top f__signUP">Sign Up for BANGHAY Emails</span>
-            <div class="col pt-2">
+            <div class="email-cont">
               <input type="text" class="form-control" placeholder="Email">
               <button class="btn btn-outline-secondary" type="button" id="button-addon1">Subscribe</button>
             </div>
