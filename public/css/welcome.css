@@ -206,8 +206,7 @@ main{
 
     body footer .footer__row1 {
         padding-left: 0;
-        font-size: 0;
-        padding-bottom: 0;
+        
       }
 
     
@@ -325,7 +324,7 @@ body footer {
     letter-spacing: 2px;
   }
   body footer .footer__row1 {
-    padding-left: 1rem;
+    padding-left: 12rem;
     font-size: 1rem;
     padding-bottom: 1rem;
   }
@@ -339,7 +338,6 @@ body footer {
   }
   body footer .footer__row2 {
     padding-bottom: 1rem;
-    padding-left: 1rem;
   }
   body footer .footer__row2 button {
     color: #fff;
@@ -353,4 +351,3 @@ body footer {
   body footer .footer__row3 a {
     color: white;
   }
-

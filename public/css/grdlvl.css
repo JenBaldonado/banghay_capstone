@@ -474,4 +474,8 @@ body footer {
         overflow-x: hidden;
         max-width: 100%;
     }
+    body footer .footer__row1 {
+        padding-left: 0;
+        
+      }
   }
