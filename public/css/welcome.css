@@ -204,8 +204,8 @@ main{
        margin-top: 10em;
     }
 
-    body footer .footer__row1 {
-        padding-left: -5rem;
+   .footer__row1 {
+        padding-left: 0em;
         
       }
     
