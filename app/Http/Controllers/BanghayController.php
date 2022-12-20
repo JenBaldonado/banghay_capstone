@@ -9,6 +9,8 @@ use App\Models\Banghay;
 
 class BanghayController extends Controller
 {
+  
+
     public function index()
     {
 
