@@ -28,7 +28,7 @@ Route::get('/banghay/gradefive', [BanghayController::class, 'gradefive'])->middl
 Route::get('/banghay/gradesix', [BanghayController::class, 'gradesix'])->middleware('auth');
 
 
-Auth::routes(/* ['verify' => true] */);
+Auth::routes();
 
 
 
